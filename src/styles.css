@@ -6,11 +6,11 @@ body {
 }
  
 header {
-    background-color: #8b3475;
+    background-color: #68034f;
     padding: 10px 0;
     text-align: center;
     margin-bottom: 20px;
-    border-radius: 8px;
+    border-radius: 10px;
     border: 2px solid #68034f
 }
 
@@ -34,13 +34,23 @@ form {
 label {
     margin-bottom: 10px;
     font-weight: bold;
+    color: #68034f;
+    font-size: large;
 }
 
 input[type="text"] {
     padding: 10px;
     margin-bottom: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #60084e;
     border-radius: 4px;
+    font-size: 16px;
+    box-shadow: #60084e 0px 0px 8px;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #b377a3;
+    box-shadow: #b377a3 0px 0px 8px;
 }
 
 #recipe h1 {
@@ -56,7 +66,7 @@ input[type="text"] {
 
 footer {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 20px;
     font-size: 14px;
     color: #666;
 }
@@ -103,3 +113,6 @@ a {
     font-size: 28px;
 }
 
+.hidden {
+    display: none;
+}
