@@ -6,16 +6,17 @@
     <title>AI Recipes Generator</title>
     <link rel="stylesheet" href="src/styles.css">
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
 </head>
 <body>
     <div class="container">
     <header>
-    <h1>Yummi Recipes Generator</h1>
+    <h1>😋Yummi Recipes Generator</h1>
     </header>
     <main>
         <form id="generator-form">
             <label for="ingredients">Enter ingredients you have:</label><br>
-            <input type="text" id="ingredients" name="ingredients" placeholder="e.g., chicken, rice, broccoli" autofocus required autocomplete="off"><br>
+            <input type="text" id="ingredients" name="ingredients" placeholder="e.g., chicken, rice, broccoli" class="instructions" autofocus required autocomplete="off"><br>
             <button type="submit" class="submit-button">Generate Recipe</button>
         </form>
         <div class="recipe-output" id="recipe">
@@ -23,7 +24,7 @@
 
         </div>
     </main>
-    <footer>This AI project was coded by <a href="https://www.linkedin.com/in/liudmyla-kostiuk-5156ab42/" target="_blank">Liudmyla Kostiuk</a> and is open-sources on <a href="https://github.com/liudmyla2/recipes-generator">GitHub</a> </footer>
+    <footer><span class="applode">👋</span>This AI project was coded by <a href="https://www.linkedin.com/in/liudmyla-kostiuk-5156ab42/" target="_blank">Liudmyla Kostiuk</a> and is open-sources on <a href="https://github.com/liudmyla2/recipes-generator">GitHub</a> </footer>
     </div>
 
     <script src="src/script.js"></script>

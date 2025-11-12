@@ -1,16 +1,19 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #cc9bc0;
+    background-color: #fdf4fb;
     margin: 0;
     padding: 20px;
 }
  
 header {
-    background-color: #cc9bc0;
+    background-color: #8b3475;
     padding: 10px 0;
     text-align: center;
     margin-bottom: 20px;
+    border-radius: 8px;
+    border: 2px solid #68034f
 }
+
 
 h1 {
     text-align: center;
@@ -40,15 +43,39 @@ input[type="text"] {
     border-radius: 4px;
 }
 
+#recipe h1 {
+    font-size: 24px;
+    color: #000;
+} 
+
+#recipe h2 {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #666;
+}
+
+a {
+    font-weight: bold;
+    color: #68034f;
+    text-decoration: none;
+}
+
 .container {
     max-width: 600px;
-    margin: 120px auto;
+    margin: 60px auto;
     background-color: #f8f4f8;
     padding: 20px;
 }
 
 .submit-button {
-    background-color: #cc9bc0;
+    background-color: #68034f;
     color: white;
     padding: 10px;
     border: none;
@@ -62,19 +89,17 @@ input[type="text"] {
 }
 
 .recipe-output {
-    font-size: 18px;
-    line-height: 1.6;
+    font-size: 16px;
+    line-height: 1;
     margin-top: 20px;
     padding: 15px;
     background-color: #e0c6d8;
     border-radius: 4px;
-    border-left: #b377a3 4px solid;
+    border-left: #b377a3 8px solid;
     min-height: 200px;
 }
 
-footer {
-    text-align: center;
-    margin-top: 40px;
-    font-size: 14px;
-    color: #666;
+.applode {
+    font-size: 28px;
 }
+
