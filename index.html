@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="src/styles.css">
 </head>
 <body>
+    <div class="container">
     <header>
     <h1>Yummi Recipes Generator</h1>
     </header>
@@ -14,13 +15,15 @@
         <form>
             <label for="ingredients">Enter ingredients you have:</label><br>
             <input type="text" id="ingredients" name="ingredients" placeholder="e.g., chicken, rice, broccoli" autofocus required autocomplete="off"><br>
-            <button type="submit">Generate Recipe</button>
+            <button type="submit" class="submit-button">Generate Recipe</button>
         </form>
-        <div>
+        <div class="recipe-output">
+        
 
         </div>
     </main>
     <footer>This AI project was coded by <a href="https://www.linkedin.com/in/liudmyla-kostiuk-5156ab42/" target="_blank">Liudmyla Kostiuk</a> and is open-sources on <a href="https://github.com/liudmyla2/recipes-generator">GitHub</a> </footer>
+    </div>
 
     <script src="src/script.js"></script>
 </body>
