@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Recipes Generator</title>
     <link rel="stylesheet" href="src/styles.css">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 </head>
 <body>
     <div class="container">
@@ -12,12 +13,12 @@
     <h1>Yummi Recipes Generator</h1>
     </header>
     <main>
-        <form>
+        <form id="generator-form">
             <label for="ingredients">Enter ingredients you have:</label><br>
             <input type="text" id="ingredients" name="ingredients" placeholder="e.g., chicken, rice, broccoli" autofocus required autocomplete="off"><br>
             <button type="submit" class="submit-button">Generate Recipe</button>
         </form>
-        <div class="recipe-output">
+        <div class="recipe-output" id="recipe">
         
 
         </div>
