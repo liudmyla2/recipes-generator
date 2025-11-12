@@ -80,8 +80,10 @@ a {
 .container {
     max-width: 600px;
     margin: 60px auto;
-    background-color: #f8f4f8;
+    background-color: #fff;
     padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .submit-button {
@@ -103,8 +105,8 @@ a {
     line-height: 1;
     margin-top: 20px;
     padding: 15px;
-    background-color: #e0c6d8;
-    border-radius: 4px;
+    background-color: #fff0f6;
+    border-radius: 10px;
     border-left: #b377a3 8px solid;
     min-height: 200px;
 }
